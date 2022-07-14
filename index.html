@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>V3D</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="V3D.png" type="image/x">
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    </head>
+    <body>
+        <center>
+            <h1>V3D</h1>
+            <div>
+                <input type="file" onchange = "run(this)"><br><br> 
+                Open a file to view. Supported file formats GLTF and GLB
+                <model-viewer id = "model" camera-controls></model-viewer>
+            </div>
+        </center>
+        <script src="script.js"></script>
+    </body>
+</html>

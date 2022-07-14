@@ -1,0 +1,26 @@
+*{
+    background:black;
+    color:white;
+    font-family:monospace;
+}
+
+h1{
+    font-size:50px;
+}
+
+model-viewer{
+    display:none;
+    background:#111111;
+    width:65%;
+    height:400px;
+    border-radius:30px;
+}
+
+input[type="file"]{font-size:0;}
+
+::-webkit-file-upload-button{
+    background:#111111;
+    border-radius:10px; 
+    font-size:40px;
+    color:white;
+}
